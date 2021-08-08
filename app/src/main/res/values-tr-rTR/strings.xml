@@ -474,6 +474,7 @@
     <string name="country_string">Satılan ülkeler</string>
     <string name="store_subtitle">Mağaza</string>
     <string name="packaging_subtitle">Ambalaj</string>
+    <string name="state_subtitle">Eyalet</string>
     <string name="packaging_string">Ambalaj</string>
     <string name="label_string">Etiket</string>
     <string name="category_string">Kategori</string>

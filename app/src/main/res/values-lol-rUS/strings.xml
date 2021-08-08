@@ -467,9 +467,10 @@
     <string name="additive_string">crwdns178832:0crwdne178832:0</string>
     <string name="allergen_string">crwdns178834:0crwdne178834:0</string>
     <string name="search_string">crwdns178836:0crwdne178836:0</string>
-    <string name="country_string">crwdns178838:0crwdne178838:0</string>
+    <string name="country_string">crwdns187498:0crwdne187498:0</string>
     <string name="store_subtitle">crwdns178840:0crwdne178840:0</string>
     <string name="packaging_subtitle">crwdns178842:0crwdne178842:0</string>
+    <string name="state_subtitle">crwdns187517:0crwdne187517:0</string>
     <string name="packaging_string">crwdns178844:0crwdne178844:0</string>
     <string name="label_string">crwdns178846:0crwdne178846:0</string>
     <string name="category_string">crwdns178848:0crwdne178848:0</string>

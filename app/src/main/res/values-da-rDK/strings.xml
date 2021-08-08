@@ -474,6 +474,7 @@
     <string name="country_string">Lande, hvorfra der sælges</string>
     <string name="store_subtitle">Butik</string>
     <string name="packaging_subtitle">Emballage</string>
+    <string name="state_subtitle">Stat</string>
     <string name="packaging_string">Emballage</string>
     <string name="label_string">Etiket</string>
     <string name="category_string">Kategori</string>

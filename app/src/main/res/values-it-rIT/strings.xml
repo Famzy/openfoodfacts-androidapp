@@ -471,6 +471,7 @@
     <string name="country_string">Paesi di vendita</string>
     <string name="store_subtitle">Negozio</string>
     <string name="packaging_subtitle">Confezionamento</string>
+    <string name="state_subtitle">Stato</string>
     <string name="packaging_string">Confezionamento</string>
     <string name="label_string">Etichetta</string>
     <string name="category_string">Categoria</string>

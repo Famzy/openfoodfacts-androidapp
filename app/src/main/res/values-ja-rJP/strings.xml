@@ -469,6 +469,7 @@
     <string name="country_string">販売の国</string>
     <string name="store_subtitle">店舗</string>
     <string name="packaging_subtitle">パッケージング</string>
+    <string name="state_subtitle">状態</string>
     <string name="packaging_string">パッケージング</string>
     <string name="label_string">ラベル</string>
     <string name="category_string">カテゴリー</string>

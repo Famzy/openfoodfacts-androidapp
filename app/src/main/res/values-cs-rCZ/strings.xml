@@ -484,6 +484,7 @@
     <string name="country_string">Země prodeje</string>
     <string name="store_subtitle">Prodejna</string>
     <string name="packaging_subtitle">Obal</string>
+    <string name="state_subtitle">Stát</string>
     <string name="packaging_string">Obal</string>
     <string name="label_string">Štítek</string>
     <string name="category_string">Kategorie</string>

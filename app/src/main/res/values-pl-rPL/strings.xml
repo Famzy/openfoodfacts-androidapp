@@ -484,6 +484,7 @@
     <string name="country_string">Kraje sprzedaży</string>
     <string name="store_subtitle">Sklep</string>
     <string name="packaging_subtitle">Opakowania</string>
+    <string name="state_subtitle">Stan</string>
     <string name="packaging_string">Opakowania</string>
     <string name="label_string">Etykieta</string>
     <string name="category_string">Kategoria</string>

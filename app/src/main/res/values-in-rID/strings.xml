@@ -127,7 +127,7 @@
         <item>pH</item>
         <item>Fosfor</item>
         <item>Sugar alcohols (Polyols)</item>
-        <item>Polyunsaturated fat</item>
+        <item>Poly unsaturated fat</item>
         <item>poKaliium</item>
         <item>senium</item>
         <item>Serum proteins</item>
@@ -317,7 +317,7 @@
     <string name="for_100ml">For 100 ml</string>
     <string name="serving">porsi</string>
     <string name="nutrition_monounsaturatedFat">Lemak tak jenuh Mono</string>
-    <string name="nutrition_polyunsaturatedFat">Polyunsaturated fat</string>
+    <string name="nutrition_polyunsaturatedFat">Poly unsaturated fat</string>
     <string name="nutrition_omega3">Omega3</string>
     <string name="nutrition_omega6">Omega 6</string>
     <string name="nutrition_omega9">Omega9</string>
@@ -375,10 +375,10 @@
     <string name="txtSaturatedFat">Lemak jenuh</string>
     <string name="nutriscore_info_msg">Learn more about the Nutri-Score</string>
     <string name="nova_info_msg">Learn more about NOVA groups</string>
-    <string name="nova_grp1_msg">Group 1 - Unprocessed or minimally processed foods</string>
-    <string name="nova_grp2_msg">Group 2 - Processed culinary ingredients</string>
-    <string name="nova_grp3_msg">Group 3 - Processed foods</string>
-    <string name="nova_grp4_msg">Group 4 - Ultra-processed food and drink products</string>
+    <string name="nova_grp1_msg">Kelompok 1 - Makanan yang tidak diproses atau diproses minimal</string>
+    <string name="nova_grp2_msg">Kelompok 2 - Olahan bahan kuliner</string>
+    <string name="nova_grp3_msg">Kelompok 3 - Makanan olahan</string>
+    <string name="nova_grp4_msg">Group 4 - Produk makanan dan minuman yang ultra proses</string>
     <!-- String related to App Shortcuts -->
     <string name="disabled_message">Pintasan tidak tersedia</string>
     <string name="scan_shortcut_short_label">Pindai</string>
@@ -469,6 +469,7 @@
     <string name="country_string">Negara tempat dijual</string>
     <string name="store_subtitle">Toko</string>
     <string name="packaging_subtitle">Pengemasan</string>
+    <string name="state_subtitle">Negara</string>
     <string name="packaging_string">Pengemasan</string>
     <string name="label_string">Label</string>
     <string name="category_string">Kategori</string>

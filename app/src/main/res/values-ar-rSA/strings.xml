@@ -496,6 +496,7 @@
     <string name="country_string">بلدان بيع</string>
     <string name="store_subtitle">المتجر</string>
     <string name="packaging_subtitle">التعبئة والتغليف</string>
+    <string name="state_subtitle">الولاية</string>
     <string name="packaging_string">التعبئة والتغليف</string>
     <string name="label_string">al3alama</string>
     <string name="category_string">Atassnifate</string>

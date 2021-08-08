@@ -474,6 +474,7 @@
     <string name="country_string">जिन देशों में बिकता है</string>
     <string name="store_subtitle">दुकान</string>
     <string name="packaging_subtitle">पैकेजिंग</string>
+    <string name="state_subtitle">State</string>
     <string name="packaging_string">पैकेजिंग</string>
     <string name="label_string">लेबल</string>
     <string name="category_string">श्रेणी</string>

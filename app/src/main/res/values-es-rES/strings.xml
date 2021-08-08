@@ -474,6 +474,7 @@
     <string name="country_string">Países de venta</string>
     <string name="store_subtitle">Tienda</string>
     <string name="packaging_subtitle">Envases</string>
+    <string name="state_subtitle">Estado</string>
     <string name="packaging_string">Envases</string>
     <string name="label_string">Etiqueta</string>
     <string name="category_string">Categoría</string>

@@ -470,6 +470,7 @@
     <string name="country_string">Vertriebsländer</string>
     <string name="store_subtitle">Laden</string>
     <string name="packaging_subtitle">Art der Verpackung</string>
+    <string name="state_subtitle">Stand</string>
     <string name="packaging_string">Art der Verpackung</string>
     <string name="label_string">Kennzeichnung</string>
     <string name="category_string">Kategorie</string>
