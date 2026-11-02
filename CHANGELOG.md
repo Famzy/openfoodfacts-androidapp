@@ -1,5 +1,55 @@
 # Changelog
 
+## [3.11.0](https://github.com/Famzy/openfoodfacts-androidapp/compare/v3.10.2...v3.11.0) (2026-11-02)
+
+
+### Features
+
+* add In-App Review Functionality for playstore flavor ([#4860](https://github.com/Famzy/openfoodfacts-androidapp/issues/4860)) ([eb967ad](https://github.com/Famzy/openfoodfacts-androidapp/commit/eb967ade84eb0c603cb540fc7e0e6232a473c218))
+* Add version code in user agent ([#4658](https://github.com/Famzy/openfoodfacts-androidapp/issues/4658)) ([8b23c1a](https://github.com/Famzy/openfoodfacts-androidapp/commit/8b23c1a239b5b0d8af415ed5b2c3626a16216af6))
+* export DB ([#4719](https://github.com/Famzy/openfoodfacts-androidapp/issues/4719)) ([694b56f](https://github.com/Famzy/openfoodfacts-androidapp/commit/694b56f6f9a3d4f4c1a9d9f99fb87236a91856ce))
+* Monitor barcode scanning performance ([#4651](https://github.com/Famzy/openfoodfacts-androidapp/issues/4651)) ([80770c8](https://github.com/Famzy/openfoodfacts-androidapp/commit/80770c89df69cc0d75e6c271fb10603796676ae2))
+* new icons ([ba85327](https://github.com/Famzy/openfoodfacts-androidapp/commit/ba85327c495699d1a3485939b9c88ab72afda778))
+* update to minSdk 21 ([#4769](https://github.com/Famzy/openfoodfacts-androidapp/issues/4769)) ([c508b43](https://github.com/Famzy/openfoodfacts-androidapp/commit/c508b439dfebce2dc69a0854dd18d587c1f543eb))
+* use default locale for dateTime format in ContributorsFragment.kt ([dbdb089](https://github.com/Famzy/openfoodfacts-androidapp/commit/dbdb0895fe9414790b31168f0e29688f22a9d00d))
+* Use new SplashScreen API on Android 12 and newer (API level 31 and up) ([#4871](https://github.com/Famzy/openfoodfacts-androidapp/issues/4871)) ([1be5da9](https://github.com/Famzy/openfoodfacts-androidapp/commit/1be5da982539d8c4702b807d315a76fa33bff919))
+* use system PowerManager API to query for low battery status ([#4874](https://github.com/Famzy/openfoodfacts-androidapp/issues/4874)) ([3ff8481](https://github.com/Famzy/openfoodfacts-androidapp/commit/3ff84814153171601ff7a950c86b354c46524926))
+
+
+### Bug Fixes
+
+* add check to MLKitCameraView.kt in FDroid so we're sure to not instantiating it ([8d97da6](https://github.com/Famzy/openfoodfacts-androidapp/commit/8d97da669602c3d12729000bd40d1552e7504724))
+* add status_code prop in AnnotationResponse ([17af32c](https://github.com/Famzy/openfoodfacts-androidapp/commit/17af32c27845695558582133ec802bfecf8e6f55)), closes [#4896](https://github.com/Famzy/openfoodfacts-androidapp/issues/4896)
+* Barcode usage in ContinuousScanActivity ([220021c](https://github.com/Famzy/openfoodfacts-androidapp/commit/220021c350b6ab5e4323cfb433553054fcaa5617))
+* check for null before using an input stream ([54691ae](https://github.com/Famzy/openfoodfacts-androidapp/commit/54691aecef05638e9785004ffad89c3c8e8c966c))
+* exhaustive use of when in ProductEditActivity.kt ([c7cafae](https://github.com/Famzy/openfoodfacts-androidapp/commit/c7cafaec69f840ecdaad093374f122641cf86bce))
+* filter before mapping in ImageNameParser.kt ([9d43faa](https://github.com/Famzy/openfoodfacts-androidapp/commit/9d43faa93a2f660a2a45d99d31745577701246ff))
+* Fix crashes by ensuring layout ID is set before inflating Camera View stub + raise AGP for Kotlin 1.7.0 compatibility ([#4794](https://github.com/Famzy/openfoodfacts-androidapp/issues/4794)) ([a39d366](https://github.com/Famzy/openfoodfacts-androidapp/commit/a39d3668c3fe8972da361022ba04b929da38f109))
+* fix Detekt CI failure by updating Gradle action invocation in Android Integration workflow ([#5519](https://github.com/Famzy/openfoodfacts-androidapp/issues/5519)) ([1b189b2](https://github.com/Famzy/openfoodfacts-androidapp/commit/1b189b261a8d18f92d2e2702abbf5fa9203ac573))
+* Fix formatting in ktlint.yml workflow ([c2682c4](https://github.com/Famzy/openfoodfacts-androidapp/commit/c2682c4b9471f0d418d43bdfcb073b2b1eae62f6))
+* Fix ProductsAPITest ([#5267](https://github.com/Famzy/openfoodfacts-androidapp/issues/5267)) ([fb837b7](https://github.com/Famzy/openfoodfacts-androidapp/commit/fb837b7b8bf4d1bf91a47ba2d5c24b6958ed1a4c))
+* Fixed typo in german translation ([#5028](https://github.com/Famzy/openfoodfacts-androidapp/issues/5028)) ([b14445d](https://github.com/Famzy/openfoodfacts-androidapp/commit/b14445d9b0ce4c5e5fa4461c9cfdf4c048b27b05))
+* getImageUrl ([2626919](https://github.com/Famzy/openfoodfacts-androidapp/commit/2626919eaec75d61c0586b84617f222fb0387e02))
+* ImageKeyHelper.kt tests were wrong after last refactor ([fe8f54f](https://github.com/Famzy/openfoodfacts-androidapp/commit/fe8f54f07d85847b0fbe7e56ad50501355fa0931))
+* imageNames sorting to preserve descending timestamp order ([#5461](https://github.com/Famzy/openfoodfacts-androidapp/issues/5461)) ([9717d74](https://github.com/Famzy/openfoodfacts-androidapp/commit/9717d74d3cb7bd40ef332431e82fad2543c3dd3b))
+* initialize camera before use in SimpleScanActivity.kt ([6233fa3](https://github.com/Famzy/openfoodfacts-androidapp/commit/6233fa3a6074f474f89571311f2e40b4eb3ec6f9))
+* labeler action not working ([1089c17](https://github.com/Famzy/openfoodfacts-androidapp/commit/1089c1750412882743d7ebe04612f821b1a3baee))
+* Launch (fragment-ktx), Product Photos, Contributions bug fixes. ([#4961](https://github.com/Famzy/openfoodfacts-androidapp/issues/4961)) ([2ab9bbe](https://github.com/Famzy/openfoodfacts-androidapp/commit/2ab9bbeb86bded6174cd8a401cb60e8d8a243167))
+* Made "image upload" message more descriptive on Product Addition ([#4852](https://github.com/Famzy/openfoodfacts-androidapp/issues/4852)) ([9bde0f8](https://github.com/Famzy/openfoodfacts-androidapp/commit/9bde0f8b716bec2dabd6b1b518521f564d4cce9b))
+* ModifierTest.kt ([1785cff](https://github.com/Famzy/openfoodfacts-androidapp/commit/1785cffadc12601f899adc7af002f03dad344d44))
+* Product search recycler view data ([#4918](https://github.com/Famzy/openfoodfacts-androidapp/issues/4918)) ([0c0dca1](https://github.com/Famzy/openfoodfacts-androidapp/commit/0c0dca1f6614d8a128c5cf77edcfc8f7fc697a42)), closes [#4913](https://github.com/Famzy/openfoodfacts-androidapp/issues/4913)
+* ProductCompareViewModelTest ([4879d20](https://github.com/Famzy/openfoodfacts-androidapp/commit/4879d20322ae002456bc51c45e3c3f4399e89a2d)), closes [#4923](https://github.com/Famzy/openfoodfacts-androidapp/issues/4923)
+* removed useless RequiresApi annotation as minSdk is 21 ([7ccfabf](https://github.com/Famzy/openfoodfacts-androidapp/commit/7ccfabf60af0e96e1edd77679a05ca27bc201285))
+* replace static.openfoodfacts.org with images.openfoodfacts.org ([#5462](https://github.com/Famzy/openfoodfacts-androidapp/issues/5462)) ([a576d2f](https://github.com/Famzy/openfoodfacts-androidapp/commit/a576d2fabfe93d131ef626582d51d5d7c2f7395a)), closes [#5296](https://github.com/Famzy/openfoodfacts-androidapp/issues/5296)
+* Revent to Eaten products ([#4702](https://github.com/Famzy/openfoodfacts-androidapp/issues/4702)) ([cfca5f4](https://github.com/Famzy/openfoodfacts-androidapp/commit/cfca5f4ea6d75e10fa2201cd0afcd9754c0d1e75))
+* show barcode value instead of class when displaying the product not found ([66bedd3](https://github.com/Famzy/openfoodfacts-androidapp/commit/66bedd386e5d822a3d2de250c9928e60cbb25c64)), closes [#4889](https://github.com/Famzy/openfoodfacts-androidapp/issues/4889)
+* upload comment ([b394bef](https://github.com/Famzy/openfoodfacts-androidapp/commit/b394beffe0832ff4e3c3224eb9545f3b46344deb))
+* use Date instead of Instant.fromEpoch for older android versions ([6744a25](https://github.com/Famzy/openfoodfacts-androidapp/commit/6744a25ef8729ad9a7b8a921e8bc119723b2b705))
+* use setDataAndType instead of data and type in Intent creations ([bfe78a9](https://github.com/Famzy/openfoodfacts-androidapp/commit/bfe78a916c3209a4b9ab30a3d3e63bcff2327c24))
+* use the .net server for testing ([054dd8e](https://github.com/Famzy/openfoodfacts-androidapp/commit/054dd8e76f2b6d9e21021f9912dc3799edad3288))
+* When nutriscore is not (yet) computed, hide the "Learn more" button ([#4657](https://github.com/Famzy/openfoodfacts-androidapp/issues/4657)) ([a17ddb9](https://github.com/Famzy/openfoodfacts-androidapp/commit/a17ddb983e06b454968989be2088fd4a8a9ec3bf))
+* wrong mapping causing json deserialization issue ([770d9c2](https://github.com/Famzy/openfoodfacts-androidapp/commit/770d9c2a8c8aded8729b29914ce8055cb56fe2d4))
+
 ## [3.10.2](https://github.com/openfoodfacts/openfoodfacts-androidapp/compare/v3.10.1...v3.10.2) (2023-04-06)
 
 
